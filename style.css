@@ -1,0 +1,260 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+header a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.firstVeiw h1 {
+    font-size: 64px;
+    text-align: center;
+    padding-top: 320px;
+}
+
+.firstVeiw p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.firstVeiw{
+    background-image: url(images/hero-image.png);
+    background-size: cover;
+    height: 800px;
+}
+
+.title {
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+.about {
+    padding: 180px;
+}
+
+.profile h3 {
+    font-size: 24px;
+    margin-top: 72px;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile img {
+    width: 480px;
+    height: 270px;
+}
+
+.profile .profile-text {
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.school-club {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-club img {
+    width: 480px;
+    height: 270px;
+    border-radius: 18px;
+}
+
+.school-club h3 {
+    margin-top: 8px;
+}
+
+.school-club p {
+    margin-top: 16px;
+}
+
+.school-club  a {
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+
+.favorite {
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    background-image: url(images/favorite-background.png);
+    background-size: cover;
+}
+
+.favorite h2 {
+    color: #fff;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+.favorite-contents {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-content {
+    width: 320px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+}
+
+.favorite-content h3 {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.favorite-content p {
+    font-size: 16px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.favorite-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.works {
+    padding: 180px;
+    text-align: center;
+    background-color: #fffdf3;
+}
+
+.works h2 {
+    border-bottom: 3px solid #f90;
+    display: inline-block;
+}
+
+.works-content {
+    display: block;
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    display: flex;
+}
+
+.works-content img {
+    width: 320px;
+    height: 180px;
+}
+
+.works-text {
+    margin-left: 32px;
+}
+
+.works-text h3 {
+    font-size: 28px;
+}
+
+.works-text span {
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.works-text p {
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.contact {
+    text-align: center;
+    padding: 180px 370px;
+}
+
+.contact h2 {
+    border-bottom: 3px solid #f90;
+    display: inline-block;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+
+.contact a {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;    
+}
+
+.contact .sns-twitter {
+    background-color: #00acee;
+}
+
+.contact .sns-facebook {
+    background-color: #3b5998;
+}
+
+.contact .sns-website {
+    background-color: #333333;
+}
+
+.contact .sns {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
